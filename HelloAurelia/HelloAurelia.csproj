@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="currentDate.html" />
+    <Content Include="currentDate.js" />
     <Content Include="jspm_packages\.loaderversions" />
     <Content Include="jspm_packages\es6-module-loader.js.map" />
     <Content Include="jspm_packages\github\jspm\nodelibs-fs%400.1.2\.jspm-hash" />
@@ -120,6 +122,8 @@
     <Content Include="jspm_packages\npm\process%400.10.1\package.json" />
     <Content Include="jspm_packages\npm\process%400.10.1\README.md" />
     <Content Include="jspm_packages\system.js.map" />
+    <Content Include="package.json" />
+    <Content Include="movies.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
