@@ -2,16 +2,16 @@
     {
         "id": 1,
         "title": "Star Wars",
-        "release Year": 1983
+        "releaseYear": 1983
     },
     {
         "id": 11,
         "title": "Star Trek",
-        "release Year": 1981
+        "releaseYear": 1981
     },
     {
         "id": 21,
         "title": "Shrek",
-        "release Year": 2004
+        "releaseYear": 2004
     }
 ]

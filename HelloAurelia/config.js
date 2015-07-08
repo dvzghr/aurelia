@@ -3,7 +3,8 @@ System.config({
   "transpiler": "babel",
   "babelOptions": {
     "optional": [
-      "runtime"
+      "runtime",
+      "es7.decorators"
     ]
   },
   "paths": {
@@ -20,6 +21,7 @@ System.config({
     "aurelia-http-client": "github:aurelia/http-client@0.10.0",
     "babel": "npm:babel-core@5.6.7",
     "babel-runtime": "npm:babel-runtime@5.6.7",
+    "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@0.9.18",
     "github:aurelia/binding@0.7.3": {
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.8.1",
@@ -125,6 +127,9 @@ System.config({
     },
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
+    },
+    "github:twbs/bootstrap@3.3.5": {
+      "jquery": "github:components/jquery@2.1.4"
     },
     "npm:babel-runtime@5.6.7": {
       "process": "github:jspm/nodelibs-process@0.1.1"
